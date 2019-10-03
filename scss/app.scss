@@ -93,6 +93,10 @@
     li {
         margin-right: 12px;
     }
+
+    li:last-child {
+        margin: 0;
+    }
 }
 
 .hero-title {
