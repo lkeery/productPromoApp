@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app",
+    "sass-start": "gulp",
     "build": "gulp sass"
   },
   "author": "ZURB <foundation@zurb.com>",
