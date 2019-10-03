@@ -4,18 +4,43 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Peak Technologies | Reach Your Potential</title>
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
     
     <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <h1>Welcome to Foundation</h1>
+      
+      <div class="grid-x">
+        <div class="cell nav">
+            <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+                <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+              </div>
+              
+              <div class="top-bar" id="responsive-menu">
+                  <div class="top-bar-left hide-for-small-only">
+                      <a href="#">Peak Technologies</a>
+                  </div>
+                <div class="top-bar-right">
+                  <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Request Demo</a></li>
+                  </ul>
+                </div>
+              </div>
         </div>
       </div>
-    </div>
+
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell" id="hero">
+          <h1 class="hero-title">Reach your maximum potential.</h1>
+          <img class="peak-demo" src="images/peak.png" alt="Peak Technologies">
+          <p class="hero-tagline">Plan and organize your workout schedule based off of capacity data.</p>
+          <a class="request" href="#">Request A Demo</a>
+        </div>
+      </div>
+    </div><!-- container close -->
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/what-input/dist/what-input.js"></script>
